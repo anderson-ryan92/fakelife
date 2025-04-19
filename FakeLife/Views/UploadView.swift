@@ -102,7 +102,7 @@ struct UploadView: View {
                         .alert("Pricing Guidelines", isPresented: $showPriceHelp) {
                             Button("OK", role: .cancel) { }
                         } message: {
-                            Text("Set a price between $0.99 and $49.99. CloutMarket takes a 15% fee from each sale.")
+                            Text("Set a price between $0.99 and $49.99. FakeLife takes a 15% fee from each sale.")
                         }
                     }
                     

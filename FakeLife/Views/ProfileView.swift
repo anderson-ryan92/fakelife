@@ -114,7 +114,7 @@ struct ProfileView: View {
                 }
                 
                 // App Version
-                Text("CloutMarket • Version 1.0.0")
+                Text("FakeLife • Version 1.0.0")
                     .font(.caption)
                     .foregroundColor(.secondary)
                     .padding(.top)

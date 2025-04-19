@@ -16,7 +16,7 @@ struct AuthView: View {
                         .font(.system(size: 60))
                         .foregroundColor(.blue)
                     
-                    Text("CloutMarket")
+                    Text("FakeLife")
                         .font(.system(size: 36, weight: .bold))
                         .foregroundColor(.primary)
                     

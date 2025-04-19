@@ -2,10 +2,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "CloutMarket",
+    name: "FakeLife",
     platforms: [.iOS(.v15)],
     products: [
-        .library(name: "CloutMarket", targets: ["CloutMarket"]),
+        .library(name: "FakeLife", targets: ["FakeLife"]),
     ],
     dependencies: [
         .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "10.0.0"),
@@ -13,7 +13,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "CloutMarket",
+            name: "FakeLife",
             dependencies: [
                 .product(name: "FirebaseAuth", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseFirestore", package: "firebase-ios-sdk"),
@@ -23,8 +23,8 @@ let package = Package(
             ]
         ),
         .testTarget(
-            name: "CloutMarketTests",
-            dependencies: ["CloutMarket"]
+            name: "FakeLifeTests",
+            dependencies: ["FakeLife"]
         ),
     ]
 ) 

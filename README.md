@@ -1,6 +1,6 @@
-# CloutMarket
+# FakeLife
 
-CloutMarket is an iOS app that enables content creators to monetize their photos and videos by selling them directly to consumers in an easy-to-use marketplace.
+FakeLife is an iOS app that enables content creators to monetize their photos and videos by selling them directly to consumers in an easy-to-use marketplace.
 
 ## Features
 
@@ -14,7 +14,7 @@ CloutMarket is an iOS app that enables content creators to monetize their photos
 
 ## Architecture
 
-CloutMarket is built using the MVVM (Model-View-ViewModel) architecture pattern:
+FakeLife is built using the MVVM (Model-View-ViewModel) architecture pattern:
 
 - **Models**: Core data structures that represent entities in the app
 - **Views**: SwiftUI-based user interface components
@@ -31,14 +31,14 @@ CloutMarket is built using the MVVM (Model-View-ViewModel) architecture pattern:
 ## Project Structure
 
 ```
-CloutMarket/
+FakeLife/
 ├── Models/               # Data models
 ├── ViewModels/           # Business logic
 ├── Views/                # UI components
 ├── Services/             # API services
 ├── Utilities/            # Helper functions
 ├── Resources/            # Assets and resources
-└── CloutMarketApp.swift  # App entry point
+└── FakeLifeApp.swift     # App entry point
 ```
 
 ## Prerequisites
@@ -54,8 +54,8 @@ CloutMarket/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/cloutmarket.git
-cd cloutmarket
+git clone https://github.com/yourusername/fakelife.git
+cd fakelife
 ```
 
 ### 2. Firebase Setup
@@ -82,7 +82,7 @@ Build and run the app in Xcode using an iOS simulator or physical device.
 
 ## Backend API (Server-side)
 
-For full functionality, CloutMarket requires a server-side component to handle:
+For full functionality, FakeLife requires a server-side component to handle:
 
 - Stripe payment intent creation
 - Secure handling of Stripe API keys

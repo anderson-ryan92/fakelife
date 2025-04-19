@@ -2,7 +2,7 @@ import SwiftUI
 import Firebase
 
 @main
-struct CloutMarketApp: App {
+struct FakeLifeApp: App {
     @StateObject private var authViewModel = AuthViewModel()
     
     init() {

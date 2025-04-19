@@ -210,7 +210,7 @@ struct ContentDetailView: View {
         )
         .sheet(isPresented: $showShareSheet) {
             if let id = content.id {
-                let url = URL(string: "cloutmarket://content/\(id)")!
+                let url = URL(string: "fakelife://content/\(id)")!
                 ShareSheet(items: [url])
             }
         }
