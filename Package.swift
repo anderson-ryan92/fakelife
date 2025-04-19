@@ -9,7 +9,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "10.0.0"),
-        .package(url: "https://github.com/stripe/stripe-ios.git", from: "23.0.0")
+        .package(url: "https://github.com/stripe/stripe-ios.git", from: "23.18.0")
     ],
     targets: [
         .target(
@@ -20,11 +20,13 @@ let package = Package(
                 .product(name: "FirebaseStorage", package: "firebase-ios-sdk"),
                 .product(name: "Stripe", package: "stripe-ios"),
                 .product(name: "StripePaymentSheet", package: "stripe-ios")
-            ]
+            ],
+            path: "FakeLife"
         ),
         .testTarget(
             name: "FakeLifeTests",
-            dependencies: ["FakeLife"]
+            dependencies: ["FakeLife"],
+            path: "FakeLifeTests"
         ),
     ]
 ) 
